@@ -2,39 +2,41 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = 2016-04-20T00:00:00
+date = "2016-04-20T00:00:00"
 
 # Order that this section will appear in.
-weight = 5
+weight = 69
 
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Aerosoles",
+    "Calidad de aire",
+    "Cambio climático"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "Doctorado en Química"
+  institution = "Universidad Johannes Gutenberg, Mainz - International Max Planck Research School"
+  year = 2018
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "Maestría en Química"
+  institution = "Instituto Venezolano de Investigaciones Científicas"
+  year = 2013
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
- 
+  course = "Licenciatura en Química"
+  institution = "Universidad Simón Bolívar"
+  year = 2007
+
 +++
 
-# Biography
+# Bio
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Soy investigador en el área de los aerosoles atmosféricos y de su impacto climático y ambiental. He estado involucrado en estudios de calidad de aire y cambio climático en Venezuela, Brasil y Alemania. Específicamente, tengo experiencia en el uso de instrumentos ópticos para la medición de partículas suspendidas en la atmósfera.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Este sitio web comprende una compilación de mis publicaciones académicas y algunos recursos para la divulgación científica que espero recoger en el blog. Además, aportaré algunas notas sobre análisis y visualización de datos, especialmente de datos ambientales.
+
+[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/Y8Y6J1UL)

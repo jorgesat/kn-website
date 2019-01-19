@@ -6,14 +6,14 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://kumulonimb.us"
 
 # Title of your site
-title = "Academic"
+title = "kumulonimbus"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; Todo el contenido bajo licencia CC-BY-SA 4.0 / All contents under CC-BY-SA 4.0 license."
 
 theme = "academic"
 enableEmoji = true
@@ -23,13 +23,13 @@ preserveTaxonomyNames = true
 paginate = 10
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "kumulonimbus"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
+defaultContentLanguage = "es"
 hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
@@ -44,7 +44,7 @@ enableGitInfo = false
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
   hrefTargetBlank = true  # `true` opens external links in a new tab.
-  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  fractions = false  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
   smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
   extensions = ["backslashLineBreak"]
 
@@ -52,27 +52,27 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Jorge Saturno"
+  role = "Researcher"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  #organizations = [ { name = "Stanford University", url = "" } ]
 
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
+  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = """
-  Monday 10:00 to 13:00<br>
-  Wednesday 09:00 to 10:00<br>
-  Otherwise email to book an appointment
-  """
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
+  email = "jorgesaturno@pm.me"
+  #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  #office_hours = """
+  #Monday 10:00 to 13:00<br>
+  #Wednesday 09:00 to 10:00<br>
+  #Otherwise email to book an appointment
+  #"""
+  #phone = "888 888 88 88"
+  skype = "jorge.saturno"
+  telegram = "jorgesaturno"
   keybase = ""  # Your keybase.io username.
 
   # Enter an optional link for booking appointments (e.g. calendly.com).
@@ -116,21 +116,21 @@ enableGitInfo = false
   font = "default"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
-  description = ""
+  description = "kumulonimbus - blog - Jorge Saturno"
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-  sharing_image = ""
+  sharing_image = "kumulonimbus_default01.png"
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
-  twitter = ""
+  twitter = "JSaturno"
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = ""
+  logo = "kumulonimbus_logo02_transp.png"
 
   # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Jan 2, 2006"
+  date_format = "2006-01-02"
   #   Examples: "3:04 pm" or "15:04"
   time_format = "3:04 PM"
 
@@ -138,7 +138,7 @@ enableGitInfo = false
   reading_time = true
 
   # Display comment count? Requires commenting to be enabled.
-  comment_count = true
+  comment_count = false
 
   # Display next/previous section pager?
   section_pager = false
@@ -262,23 +262,33 @@ enableGitInfo = false
 
   [[params.social]]
     icon = "envelope"
-    icon_pack = "fas"
-    link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+    icon_pack = "fa"
+    link = "mailto:jorgesaturno[at]pm.me"
 
   [[params.social]]
-    icon = "twitter"
-    icon_pack = "fab"
-    link = "https://twitter.com/GeorgeCushen"
-
-  [[params.social]]
-    icon = "google-scholar"
+    icon = "impactstory"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://profiles.impactstory.org/u/0000-0002-3761-3957"
+
+  #[[params.social]]
+  #  icon = "google-scholar"
+  #  icon_pack = "ai"
+  #  link = "https://scholar.google.de/citations?user=qcgLXHYAAAAJ"
 
   [[params.social]]
-    icon = "github"
-    icon_pack = "fab"
-    link = "https://github.com/gcushen"
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "https://orcid.org/0000-0002-3761-3957"
+
+  [[params.social]]
+    icon = "figshare"
+    icon_pack = "ai"
+    link = "https://figshare.com/authors/Jorge_Saturno/830545"
+
+  [[params.social]]
+      icon = "mastodon"
+      icon_pack = "fab"
+      link = "https://scholar.social/@jorge"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -295,35 +305,55 @@ enableGitInfo = false
   # Align the main menu to the right of the page? (true/false)
   align_right = true
 
-[[menu.main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
+  [[languages.en.menu.main]]
+    name = "About"
+    url = "#about"
+    weight = 3
 
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 2
+  [[languages.es.menu.main]]
+    name = "Autor"
+    url = "#about"
+    weight = 3
 
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
+  [[languages.en.menu.main]]
+    name = "Publications"
+    url = "#publications_selected"
+    weight = 2
 
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
+  [[languages.es.menu.main]]
+    name = "Publicaciones"
+    url = "#publications_selected"
+    weight = 2
 
-[[menu.main]]
-  name = "Tutorials"
-  url = "/tutorial/"
-  weight = 5
+  [[languages.en.menu.main]]
+    name = "Blog"
+    url = "#posts"
+    weight = 1
 
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+  [[languages.es.menu.main]]
+    name = "Blog"
+    url = "#posts"
+    weight = 1
+
+  #[[menu.main]]
+  #  name = "Projects"
+  #  url = "#projects"
+  #  weight = 4
+
+  #[[menu.main]]
+  #  name = "Tutorials"
+  #  url = "/tutorial/"
+  #  weight = 5
+
+  [[languages.es.menu.main]]
+    name = "Contacto"
+    url = "#contact"
+    weight = 4
+
+  [[languages.en.menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 4
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -363,13 +393,9 @@ enableGitInfo = false
   languageCode = "en-us"
 
 # Uncomment the lines below to configure your website in a second language.
-#[languages.zh]
-#  languageCode = "zh-Hans"
-#  title = "Chinese website title..."
-#  [languages.zh.params]
-#    name = "Your name in Chinese..."
-#    role = "Your role in Chinese..."
-#  [[languages.zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[languages.es]
+  languageCode = "es"
+  title = "kumulonimbus"
+  [languages.es.params]
+    name = "Jorge Saturno"
+    role = "Investigador"
