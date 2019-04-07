@@ -141,7 +141,7 @@ Si no tienes Python instalado, [esta guía](https://tutorial.djangogirls.org/es/
 Lo que tienes que hacer primero es crear un archivo "primera_entrada.md" (por sugerir un nombre) en el directorio `content/post` y editarlo.
 
 ```Shell
-hugo new  --kind post content/post/primera_entrada.md
+hugo new --kind post post/primera_entrada
 ```
 
 Abre el archivo .md en tu editor de texto y escribe algún texto usando el [formato markdown](https://markdown.es/sintaxis-markdown/). Una vez escrita la entrada, podemos ejecutar `hugo server` y visualizar el sitio abriendo `localhost:1313` en el navegador.
